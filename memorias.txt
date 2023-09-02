@@ -1,0 +1,3 @@
+len(): es un comando para contar la cantidad de caracteres que tiene una variable
+recordar que nuestro codigo para vs code no es necesario que cerremos con ;
+las variables las definimos en minusculas separadas con _ si es que deseo dejar espacios
