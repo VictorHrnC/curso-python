@@ -1,3 +1,7 @@
 len(): es un comando para contar la cantidad de caracteres que tiene una variable
 recordar que nuestro codigo para vs code no es necesario que cerremos con ;
-las variables las definimos en minusculas separadas con _ si es que deseo dejar espacios
+las variables las definimos en "snake_keys", es decir minusculas separadas con _ si es que deseo dejar espacios
+operador de modulo % es para saber el restante dentro de una division
+operador de divisiones // aproxima siempre a un valor entero
+operador para elevar numeros **
+ 
