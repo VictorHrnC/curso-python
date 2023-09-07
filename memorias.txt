@@ -4,4 +4,10 @@ las variables las definimos en "snake_keys", es decir minusculas separadas con _
 operador de modulo % es para saber el restante dentro de una division
 operador de divisiones // aproxima siempre a un valor entero
 operador para elevar numeros **
- 
+ para formatrear los datos recordar que el {nos sirve para llamar los datos de forma mas sencilla} %pero si ademas de llamar los datos queremos formatearlos esta es la mejor
+ manera%
+ ***
+ %s para string
+ %d para integers
+ %f para floats
+ ***
