@@ -41,4 +41,12 @@ print(d)
 #reversa a un string
 reversaludo = saludo[::-1]
 print(reversaludo)
+#funciones
+print(saludo.capitalize())
+print(saludo.upper())
+print(saludo.count("a"))
+print(saludo.isnumeric())
+print(saludo.lower())
+print(saludo.upper().isupper())
+
 
