@@ -30,4 +30,15 @@ print("mi nombre es {} {} y mi edad es {}".format(name,surname,age))
 print("mi nombre es %s %s y mi edad es %d"%(name, surname, age))
 #con{y nombres dentro}
 print(f"mi nombre es {name} {surname} y mi edad es {age}")
+#desempaquetando caracteres
+#nos puede servir en caso de que queramos ver solo un caracter de un string definido
+saludo = "hola"
+a,b,c,d = saludo
+print(a)
+print(b)
+print(c)
+print(d)
+#reversa a un string
+reversaludo = saludo[::-1]
+print(reversaludo)
 
