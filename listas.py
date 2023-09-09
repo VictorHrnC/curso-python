@@ -59,8 +59,13 @@ ahora es un valor x, o decide eliminar los datos de la lista nosotros podemos ac
 # ###
 
 
+###
+# las tuplas son basicamente listas que no podemos modificar
+###
+
 tupla_de_lista= tuple(lista)
 print(tupla_de_lista)
 
-
+###
+# los sets son listas ###
 
