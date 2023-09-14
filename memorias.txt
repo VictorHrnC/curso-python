@@ -1,4 +1,5 @@
 len(): es un comando para contar la cantidad de caracteres que tiene una variable
+type(): nos devuelve el tipo de variable, solemos utilizar para comprobar con que estamos trabajando (ya que al ser variables suelen cambiar)
 recordar que nuestro codigo para vs code no es necesario que cerremos con ;
 las variables las definimos en "snake_keys", es decir minusculas separadas con _ si es que deseo dejar espacios
 operador de modulo % es para saber el restante dentro de una division
