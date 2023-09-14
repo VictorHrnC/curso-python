@@ -15,19 +15,24 @@ print("seguimos programando")
 
 #veamos el caso en de un login
 #interactuamos con la terminal
+user=[]
+user_comprovacion=[]
 print("ingresa tu nombre:")
 nombre=input()
+user.insert(0,nombre)  
 print("ingresa una contraseña")
 contraseña=input()
-user=[nombre,contraseña]
+user.insert(1,contraseña)
 cadena_saltos=print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*");print("*********************************************************************************")
 cadena_saltos
 print("entrando al login")
 print("ingrese su nombre")
 nombre_comprovacion = input()
+user_comprovacion.insert(0,nombre_comprovacion)
 print("ingresa una contraseña")
 contraseña_comprovacion=input()
-user_comprovacion=[nombre_comprovacion,contraseña_comprovacion]
+user_comprovacion.insert(1,contraseña_comprovacion)
+
 if user[0] == user_comprovacion[0] and user[1] == user_comprovacion[1]:
     print("ingreso exitoso")
 elif user[0] == user_comprovacion[0] and user[1] != user_comprovacion[1]:
