@@ -76,10 +76,10 @@ print("ingresa su contraseña para verificar")
 contraseña=input()
 userl2.insert(1,contraseña)
 #luego veremos como llamar esta 
-def validacion(user):
-    while user == userl[0]:
+def validacion(user,usercompare):
+    while user[0] == usercompare[0]:
         print("el valor ingresado no es valido, ingrese el valor")
         user=input()
         userl2.insert(0,user)
-validacion(userl2[0])
+validacion(userl2,userl)
 print("continuamos programando")
