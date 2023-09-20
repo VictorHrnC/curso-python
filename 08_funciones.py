@@ -53,33 +53,3 @@ resultado = multiplicacion(valor, dovalor)
 print("el resultado de la multiplicacion de %d + %d es: %d" %(valor,dovalor,resultado))
 resultado = division(valor, dovalor)
 print("el resultado de la division de %d + %d es: %d" %(valor,dovalor,resultado))
-
-"""
-veamos el caso de un login basico con un loop while, listas, variables 
-utilicemos nuestro conocimiento (accede a los puntos si es que es necesario revisa ficheros)
-interactuemos con la terminal
-"""
-userl=[]
-userl2=[]
-print("ingresa tu usuario para registrar")
-userx=input()
-userl.insert(0,userx)
-print("ingresa tu contraseña para registrar")
-contraseñax=input()
-userl.insert(1,contraseñax)
-salto()
-print("registro exitoso")
-print("ingrese su usuario para verificar")
-user=input()
-userl2.insert(0,user)
-print("ingresa su contraseña para verificar")
-contraseña=input()
-userl2.insert(1,contraseña)
-#luego veremos como llamar esta 
-def validacion(user,usercompare):
-    while user[0] == usercompare[0]:
-        print("el valor ingresado no es valido, ingrese el valor")
-        user=input()
-        userl2.insert(0,user)
-validacion(userl2,userl)
-print("continuamos programando")
